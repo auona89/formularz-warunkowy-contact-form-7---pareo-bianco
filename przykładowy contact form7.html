@@ -1,0 +1,35 @@
+<h3>Męski</h3>
+<div id="sklep">
+<li>
+<label for="meski">Wybierz materiał:</label>[select meski id:meski class:turnintodropdown include_blank "Frota Pętelka" "Frota Strzyżona" "Wafel"]
+</li>
+ <li>
+<label>Wybierz kolor:</label><div class="hide" id="hide4"><label for="not-awesome">[select Wybierzkolor3 class:turnintodropdown include_blank "Biały"]</label></div><div class="hide" id="hide5">[select Wybierzkolor class:turnintodropdown include_blank "Biały" "Brązowy" "Burgundowy" "Lawendowy" "Oranżowy"]</div>
+<div class="hide" id="hide6">[select Wybierzkolor2 class:turnintodropdown include_blank "Biały" "Brązowy"]</div>
+</li>
+ <li>
+<label>Wybierz haft:</label>[select Wybierzhaft class:turnintodropdown include_blank "Versace"]
+</li>
+ <li>
+<label>Wybierz rozmiar:</label>[select Wybierzrozmiar class:turnintodropdown include_blank "M" "L" "XL"]
+</li>
+ <li>
+<label>Wybierz ilość:</label>[text text-631 class:trigger placeholder "Wpisz ilość sztuk"]
+</li>
+<br /><div class="zam">
+<li><label>ZAMÓWIENIE</label></li>
+ <li>[text* text-559 id:imie placeholder "Imię" ]</li>
+ <li>[text* text-104 id:nazwisko placeholder "Nazwisko"]</li>
+ <li>[text* text-383 id:Adres placeholder "Ulica i nr. domu/mieszkania"]</li>
+ <li>[text* text-320 id:kodpocztowy placeholder "Kod pocztowy"]</li>
+ <li>[text* text-390 id:miasto placeholder "Miasto"]</li>
+ <li>[email email-265 placeholder "Twój adres email"]</li>
+ <li>[tel* tel-752 placeholder "Numer telefonu"]</li></div>
+<li><label><label for="meski">Czy chcesz otrzymać fakturę VAT?:</label>[select fv id:fv "Nie" "Tak"]
+<div class="hide" id="hide7">
+[text text-656 placeholder "Nazwa firmy"]
+[text text-249 id:nip placeholder "NIP"]
+[text text-807 placeholder "Dane adresowe - wypełnić jeśli inne niż adres dostawy"]
+</div>
+[submit]
+</div>
